@@ -1,11 +1,5 @@
 import { GroupBox } from "react95";
 
-const STYLES = {
-  LINK: {
-    color: "blue",
-  },
-};
-
 export const Credits = () => {
   return (
     <>
