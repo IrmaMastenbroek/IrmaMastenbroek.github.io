@@ -1,4 +1,5 @@
 import { Card } from "@/components/card";
+import { CyberLove } from "@/components/cyberlove";
 import { Credits } from "@/components/credits";
 import { Settings } from "@/components/settings";
 import { Terminal } from "@/components/terminal";
@@ -6,6 +7,17 @@ import { SelectOption } from "react95/dist/Select/Select.types";
 import { BatExec2, ComputerFind, Inetcfg2301, Settings as SettingsIcon, User } from '@react95/icons';
 
 export const WINDOWS: WindowReducer.Data[] = [
+
+// Here, we can add icons on the home screen. My 3 main projects will be "apps" here.
+{
+  icon: Project1({ height: 32, width: 32 }),
+  component: CyberLove,
+  title: "CyberLove.proj",
+  closeable: true,
+  image: "👨‍💻",
+  id: "cyberlove",
+  minimazable: true,
+},
   {
     icon: User({ height: 32, width: 32 }),
     component: Card,

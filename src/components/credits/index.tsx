@@ -9,31 +9,15 @@ const STYLES = {
 export const Credits = () => {
   return (
     <>
-      <GroupBox label="Credits">
+      <GroupBox label="Welcome to my website">
         <p>
-          Developed by
-          <a
-            style={STYLES.LINK}
-            href="github.com/giraudgabriel"
-            target="_blank"
-          >
-            {" "}
-            Gabriel Giraud{" "}
-          </a>
           ©️ {new Date().getFullYear()}
+          Replace this text with a long description of me and the vibes. 
+          How to use this website 
+           We will end the page with a picture of me. 
         </p>
-      </GroupBox>
-      <GroupBox label="☕">
         <p>
-          If you like this project, you can buy me a coffee{" "}
-          <a
-            style={STYLES.LINK}
-            href="https://www.buymeacoffee.com/giraud"
-            target="_blank"
-          >
-            here
-          </a>
-          .
+          second paragraph
         </p>
       </GroupBox>
     </>
